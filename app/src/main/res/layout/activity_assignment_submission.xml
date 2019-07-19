@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssignmentSubmission"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+
+    <com.khemsharma.rms.CustomTextView
+        android:id="@+id/customTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Assignment Submission"
+
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        >
+
+        <com.khemsharma.rms.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Subject Code :"
+            android:textSize="18sp"
+
+            />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:textAlignment="center"
+            android:layout_height="40dp"
+            android:id="@+id/assignCode"
+            />
+
+    </LinearLayout>
+
+
+
+    <com.khemsharma.rms.CustomTextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submitted"
+        android:id="@+id/assignStatus"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textSize="35sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:layout_marginBottom="20dp"
+        />
+
+
+
+    <Button
+        android:layout_width="250dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:id="@+id/assignFileGraber"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:theme="@style/GenricButton"
+        android:visibility="gone"
+        android:text="Click Here to Choose File"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RMS</string>
+    <string name="system_title">RMS System</string>
+    <string name="login">Login</string>
+    <string name="not_user">Not a User ? Register Now</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register_now">Register Now</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="register_as">Register as:</string>
+    <string name="address">Address</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_id">Email ID</string>
+</resources>

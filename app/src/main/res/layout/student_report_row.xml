@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        >
+
+
+        <com.khemsharma.rms.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/stuReportEnrol"
+            android:text="Enrolment:146895491"/>
+
+        <com.khemsharma.rms.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/stuReportscore"
+            android:text="Grade Score:50"/>
+
+        <com.khemsharma.rms.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/stuReportstatus"
+            android:layout_below="@id/stuReportEnrol"
+            android:text="Result Status:Passed"/>
+
+
+        <com.khemsharma.rms.CustomTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:id="@+id/stuReportDate"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/stuReportEnrol"
+            android:text="Result Date:Passed"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

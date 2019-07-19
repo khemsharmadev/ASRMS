@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeaStudentReport">
+
+    <com.khemsharma.rms.CustomTextView
+        android:id="@+id/customTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:text="Add Marks"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textStyle="italic"
+
+        android:layout_marginBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customTextView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/teaEnrol"
+        android:layout_marginBottom="10dp"
+
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/GenricButton"
+        android:text="Submit"
+        android:id="@+id/teaEnrolSubmit"
+        android:layout_below="@id/teaEnrol"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

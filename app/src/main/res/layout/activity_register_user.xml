@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="42dp"
+
+
+        >
+
+        <com.khemsharma.rms.CustomTextView
+            android:id="@+id/customTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_now"
+
+            android:textSize="25sp"
+            android:textStyle="italic"
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+
+                />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+    >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email ID"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+          >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+         >
+
+            <com.khemsharma.rms.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/register_as"
+
+                />
+
+            <RadioButton
+                android:id="@+id/teacherRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:text="@string/teacher" />
+
+            <RadioButton
+                android:id="@+id/stuRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/student" />
+
+        </RadioGroup>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/enrolLayout"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regEnrol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enrolment Number"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+
+            <Spinner
+                android:id="@+id/regCourse"
+                android:layout_width="match_parent"
+                android:layout_height="57dp"
+
+
+                />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+      >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regMob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+           >
+
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/regAddr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/address"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLines="4"
+                android:scrollbars="vertical"
+
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+
+            android:background="@color/colorPrimary"
+            android:text="@string/register"
+            android:textColor="@color/white"
+         />
+
+
+    </LinearLayout>
+
+</ScrollView>
